@@ -30,9 +30,27 @@ To categorize our branches, we use the below groupings, with NAME at the end to 
 
 ## Commit Conventions
 
+### Committing Files 
+
+We want commits to be "logical units". This means that when you create a new feature, for example, you should commit **all files** that you changed as a part of that feature construction to keep the history of our changes more clear. 
+
 ### Commit Messages Conventions 
 
-Commit messages should be concise and informaitve. 
+Commit messages should be concise and informative. A typical message style might look like this: 
+
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footers>
+```
+
+`<type>`: describes the nature of the commit - use `feat` for a new feature, `fix` for bug fixes, `test` for code tests, `style` for grammatical corrections, `refactor` for changing code style to be more readable (not a functional change) 
+`<scope>`: optional description of the part of the codebase (e.g., feat(cam_vision))
+`<subject>`: concise summary of the commit - shouldn't surpass 50 characters, and should omit longer descriptions that belong in the body. 
+`<body>`: optional detailed description of the commit - should probably not exceed 72 lines, and would only save this if you are making a large change to how the codebase works 
+`<footers>`: optional metadata (e.g., what pull request a commit addresses) 
 
 ### Personal Branch Commit Frequency 
 
