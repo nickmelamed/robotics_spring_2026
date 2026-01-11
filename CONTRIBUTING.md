@@ -46,10 +46,10 @@ Commit messages should be concise and informative. A typical message style might
 <footers>
 ```
 
-`<type>`: describes the nature of the commit - use `feat` for a new feature, `fix` for bug fixes, `test` for code tests, `style` for grammatical corrections, `refactor` for changing code style to be more readable (not a functional change) 
-`<scope>`: optional description of the part of the codebase (e.g., feat(cam_vision))
-`<subject>`: concise summary of the commit - shouldn't surpass 50 characters, and should omit longer descriptions that belong in the body. 
-`<body>`: optional detailed description of the commit - should probably not exceed 72 lines, and would only save this if you are making a large change to how the codebase works 
+`<type>`: describes the nature of the commit - use `feat` for a new feature, `fix` for bug fixes, `test` for code tests, `style` for grammatical corrections, `refactor` for changing code style to be more readable (not a functional change) </br> 
+`<scope>`: optional description of the part of the codebase (e.g., feat(cam_vision)) </br>
+`<subject>`: concise summary of the commit - shouldn't surpass 50 characters, and should omit longer descriptions that belong in the body. </br>
+`<body>`: optional detailed description of the commit - should probably not exceed 72 lines, and would only save this if you are making a large change to how the codebase works </br> 
 `<footers>`: optional metadata (e.g., what pull request a commit addresses) 
 
 ### Personal Branch Commit Frequency 
