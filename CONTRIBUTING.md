@@ -12,20 +12,37 @@ These standards will help us do this. These can change based on what the team de
 
 ## Branching Strategy 
 
+### Branch Name Conventions 
+
+We want everybody to contribute code. In order to keep this organized, you will be doing all code on a personal branch, and will put your code on the main branch through a pull request (see "Pull Requests" below).
+
+Some general naming conventions are: 
+1. Only lowercase letters
+2. Keep names short and to the point - nobody should have to ask what a branch is doing, but don't write a whole sentence 
+3. Hyphens (-) instead of spaces
+4. No special characters (!, $, etc.)
+
+To categorize our branches, we use the below groupings, with NAME at the end to indicate who is creating the branch: 
+
+`feat/feat-name/NAME`: Creating a new feature (e.g., `feat/dual-cam-vision/Nick`) 
+`fix/bug-name/NAME`: Debugging fix (e.g., `fix/shot-trajectory/Nick`)
+`test/test-name/NAME`: Anything you want to experiment around with (e.g., `test/rear-cam-vision/Nick`)
+
 ## Commit Conventions
 
 ### Commit Name Conventions 
 
 
-### Commit Frequency
 
-#### Personal Branch Commit Frequency 
+### Personal Branch Commit Frequency 
 
 Since nobody else is touching this branch but you, you can frankly commmit whenever you want. Some general rules of thumb are: 
 
 1. If you are leaving your work for an extended period of time (e.g., longer than a bathroom break), commit your code.
 2. If you are stumped and find yourself needing to do more research or take some time to brainstorm, commit your code.
 3. If you've completed an important step in your code (e.g., debugged an important function), commit your code.
+
+Ultimately, someone else reading your commit history should be able to understand what is going on without asking you. 
 
 ## Pull Requests
 
@@ -40,17 +57,8 @@ Since this code will be changing our codebase, the rules here are going to be a 
 
 For any of your PRs, add INSERT NAMES OF PEOPLE TO ADD. </br>
 
-Add a label to your PR. GitHub provides some labels to mark our PRs for better organization. The list can be found on the PR page but feel free to reference them below:
+Add a label to your PR. GitHub provides some labels to mark our PRs for better organization. The list can be found on the PR page (under Labels). 
 
-1. bug: something isn't working
-2. documentation: Improvements or additions to documentation
-3. duplicate: This issue or pull already exists
-4. enhancement: New feature or request
-5. good first issue: Good for newcomers
-6. help wanted: Extra attention is needed
-7. invalid: This doesn't seem right
-8. question: Further information is requested
-9. wontfix: This will not be worked on
 
 
 
