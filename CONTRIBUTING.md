@@ -24,15 +24,15 @@ Some general naming conventions are:
 
 To categorize our branches, we use the below groupings, with NAME at the end to indicate who is creating the branch: 
 
-`feat/feat-name/NAME`: Creating a new feature (e.g., `feat/dual-cam-vision/Nick`) 
-`fix/bug-name/NAME`: Debugging fix (e.g., `fix/shot-trajectory/Nick`)
-`test/test-name/NAME`: Anything you want to experiment around with (e.g., `test/rear-cam-vision/Nick`)
+`feat/feat-name/NAME`: Creating a new feature (e.g., `feat/dual-cam-vision/Nick`) </br>
+`fix/bug-name/NAME`: Debugging fix (e.g., `fix/shot-trajectory/Nick`) </br>
+`test/test-name/NAME`: Anything you want to experiment around with (e.g., `test/rear-cam-vision/Nick`) </br> 
 
 ## Commit Conventions
 
-### Commit Name Conventions 
+### Commit Messages Conventions 
 
-
+Commit messages should be concise and informaitve. 
 
 ### Personal Branch Commit Frequency 
 
