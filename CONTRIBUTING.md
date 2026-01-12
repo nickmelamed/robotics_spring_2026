@@ -50,7 +50,27 @@ Commit messages should be concise and informative. A typical message style might
 `<scope>`: optional description of the part of the codebase (e.g., feat(cam_vision)) </br>
 `<subject>`: concise summary of the commit - shouldn't surpass 50 characters, and should omit longer descriptions that belong in the body. </br>
 `<body>`: optional detailed description of the commit - should probably not exceed 72 lines, and would only save this if you are making a large change to how the codebase works </br> 
-`<footers>`: optional metadata (e.g., what pull request a commit addresses) 
+`<footers>`: optional metadata (e.g., what pull request a commit addresses)
+
+Here is a sample commit message that follows all of the above guidance:
+
+```
+refactor(rear_camera): reorganized target detection function
+
+Refactored target detection function by turning main coding body into 3 helper functions.
+
+Addressed PR #07 regarding less verbose code
+
+``` 
+
+Note that to do multi-line commit messages in terminal, you can structure it as: 
+
+```
+git commit \
+-m "refactor(rear_camera): reorganized target detection function" \
+-m ...
+```
+
 
 ### Personal Branch Commit Frequency 
 
