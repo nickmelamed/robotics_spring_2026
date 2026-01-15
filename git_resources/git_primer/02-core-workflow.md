@@ -84,3 +84,33 @@ At this point, you should feel comfortable changing your files as is. Once you d
 
 ## 3. Stage Changes
 
+You can stage changes for an individual file like so: 
+
+```bash 
+git add FILE
+```
+
+where `FILE` is replaced by the file you want to stage the changes for. You can also add multiple files by listing them out like `git add FILE1 FILE2` and so on.  
+
+Note you can add all changes in the working directory by replacing `FILE` w/ `.`, but it is usually easier to list out individual files for keeping commits as logical units instead of just every change you've made. 
+
+## 4. Commit Changes 
+
+You can do a commit like so: 
+
+```bash 
+git commit -m "Here is my commit message!
+```
+
+A commit message is a helpful (and optional) way to explain what your commits are for. We cover how to do your commit messages in the `CONTRIBUTING.md` file, so for now just understand that you should always add a message so people understand what you are doing! 
+
+## 5. Sync w/ Remote
+
+We discussed this earlier, so here is the way you should handle commits: 
+
+```bash
+git pull
+git push
+```
+
+`git pull` ensures all remote changes are reflected in our local branch, `git push` so that our local changes are reflected in the remote branch. It is **crucial** to run things in this order so your commit history is an accurate reflection of the programming changes. 
