@@ -29,8 +29,7 @@ With Git, you can:
 - Undo mistakes
 - Recover deleted work
 
-> Git is not about saving files.  
-> Git is about **managing change safely**.
+Git is not about saving files, it is about **managing change safely**.
 
 If you remember nothing else from this primer, remember that. Syntax can always be looked up later! 
 
