@@ -36,4 +36,4 @@ A branch is:
 
 This makes branching cheap and fast.
 
-> Once you understand commits and pointers, you will feel a lot more comfortable using Git. 
+Once you understand commits and pointers, you will feel a lot more comfortable using Git. 
