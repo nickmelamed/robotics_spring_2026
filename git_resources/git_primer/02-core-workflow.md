@@ -35,10 +35,52 @@ Untracked files:
         tmp/test_output.json
 
 ```
-We will run through this line by line. 
+Let's go through each of these lines to see what this means. 
 
 ```bash
 On branch feature/user-auth 
 ```
 
-This tells you what 
+This tells you what branch you are doing your work on in the working directory. This can also be referred to as programming "locally". 
+
+```bash
+Your branch is ahead of 'origin/feature/user-auth' by 1 commit. 
+  (use "git push" to publish your local commits)
+```
+
+The `origin/feature/user-auth` is the repository branch that corresponds to our working directory branch; we know it is remote because it has `origin` at the beginning. 
+
+Our branch being ahead by one commit means that we have made changes, used `git add` to stage them (meaning they are ready to be pushed to our remote repository), but have not actually used `git push` to get them there. 
+
+```bash
+Your branch is behind 'origin/feature/user-auth' by 2 commits.
+  (use "git pull" to update your local branch)
+```
+
+So how is this command also possible? How can we be ahead of our remote branch by one but also behind by 2? This is because earlier, there were two new commits pushed to our remote repo, but we never used `git pull` to get those changes to our local branch. We will address how to address this issue of getting remote changes into our local branch a bit later, but for now know that usually you can just run `git pull` and those changes will be reflected in your local branch. 
+
+```bash 
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/auth/login.py
+        new file:   src/auth/session.py
+        deleted:    src/auth/legacy_auth.py
+```
+
+These are changes that are in the staging area, and only these changes will be able to be committed and pushed to our remote branch. Note that it makes the distinction between files that are modified, added, or deleted. 
+
+```bash 
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes/debugging.txt
+        tmp/test_output.json
+```
+
+If a file is untracked, this means it has been changed, but is only in the working directory and not in the staging area. So, no changes here will be committed. Of note, `login.py` is included in **both** the staging area and the working directory, which implies that we made changes, put them in the staging area, but then made more changes and did not run `git add` to get it into the staging area. 
+
+## 2. Make Changes 
+
+At this point, you should feel comfortable changing your files as is. Once you do that, move onto the next step. 
+
+## 3. Stage Changes
+
