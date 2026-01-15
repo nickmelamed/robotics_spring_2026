@@ -20,3 +20,20 @@ You work in three places:
 3. **Repository (History)**
    - Committed snapshots
 
+Workflow: Working Directory --> Staging Area --> Repository 
+
+## Commits are immutable
+Once created:
+- Commits do not change
+- History only changes by creating *new* commits
+
+This is why Git is safe - it is a compilation of these various unchangeable commits. 
+
+## Branches are pointers
+A branch is:
+- Just a movable pointer to a commit
+- Not a copy of files
+
+This makes branching cheap and fast.
+
+> Once you understand commits and pointers, you will feel a lot more comfortable using Git. 
