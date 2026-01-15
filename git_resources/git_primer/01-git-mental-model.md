@@ -34,6 +34,6 @@ A branch is:
 - Just a movable pointer to a commit
 - Not a copy of files
 
-This makes branching cheap and fast.
+This makes branching cheap and fast. You can think of a branch as an indicator of where you are working. We will explain this more in the branching module. 
 
 Once you understand commits and pointers, you will feel a lot more comfortable using Git. 
