@@ -1,5 +1,7 @@
 # AI Resource Page 
 
+The `ai_primer` folder has some explanatory material to better understand how to leverage ChatGPT and similar models to aid your programming.
+
 ## What is AI? 
 
 Artificial Intelligence (AI) has several different definitions, but a generally easier way to think about it is that it is putting human-level decision-making into computers. 
