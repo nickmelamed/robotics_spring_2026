@@ -1,5 +1,11 @@
 # General Thought Process when Using AI 
 
+## Checking your Work
+
+If you are using ChatGPT, for instance, you have a history of your chats and therefore the prompts you used and the outputs it produced. It is good practice to keep track of these, as they can be a big help in figuring out why code breaks. 
+
+Also, cite that you used an LLM if you are publishing any work. 
+
 ## Debugging Checklist 
 If something is broken, some good things to have the model do are: 
 - Reproduce the issue conceptually 
