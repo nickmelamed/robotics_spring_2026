@@ -98,7 +98,7 @@ In this case, you cannot pull or push to fix this issue because you have already
 
 Sometimes, you do some work on your working directory, and it is messy, so you can't commit, but you also don't want to start over. You can run `git stash` to store the uncommitted local changes elsewhere, which you can retrieve using `git stash pop`. 
 
-## How Can I See Differences in Local vs. Remote Branch?
+## "How Can I See Differences in Local vs. Remote Branch?"
 
 We mentioned before that you can use `git fetch` to preview files on the remote branch, but sometimes you don't want to download all of those remote files. You can run `git diff` and this will show all of the unstaged changes in the working directory. There are different commands that will show you different parts, like `git diff --staged` showing you the changes in the staging area. 
 
