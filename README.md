@@ -1,1 +1,1 @@
-under construction - materials for mentor position for BHHS Robotics team in Spring 2026
+under construction - materials for BHHS Robotics team in Spring 2026
