@@ -76,5 +76,5 @@ Your code might be working just fine, but there could be a less verbose way to w
 Refactor this code to be more readable and Pythonic, but ensure that the behavior remains the same
 ```
 
-It is important to make sure the LLM only changes the syntax and not the actualy function of the code! 
+It is important to make sure the LLM only changes the syntax and not the actual function of the code! 
 
