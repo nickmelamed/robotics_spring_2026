@@ -148,4 +148,19 @@ Why does this do a proper edge case check?:
 - Few shot prompting via the exemplars to demonstrate what an edge case looks like 
 - We also make sure we get some feedback on why those edge cases should pass or fail (empty values, missing separators, etc.)
 
-### Turn 8: Targeted Revisions 
+### Turn 8: Self Review 
+You can be fairly sure that the first "final" answer the model gives you will not be perfect - it may be *really* good, but it might not be exactly what you want. This will hold true especially as you produce more complex code. 
+
+One good way to find out what could be improved is with a prompt like this: 
+
+```text
+Now review the final solution and answer:
+
+1. One potential bug or limitation
+2. One improvement you would suggest for a production system
+3. One thing a beginner should remember from this example
+```
+
+Here, we check for any issues, possible improvements, and a basic summary that shows learning outcomes. 
+
+You have now seen how prompting can give you much improved outputs - happy prompting and programming! 
