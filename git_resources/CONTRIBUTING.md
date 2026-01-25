@@ -26,7 +26,8 @@ To categorize our branches, we use the below groupings, with NAME at the end to 
 
 `feat/feat-name/NAME`: Creating a new feature (e.g., `feat/dual-cam-vision/Nick`) </br>
 `fix/bug-name/NAME`: Debugging fix (e.g., `fix/shot-trajectory/Nick`) </br>
-`test/test-name/NAME`: Anything you want to experiment around with (e.g., `test/rear-cam-vision/Nick`) </br> 
+`test/test-name/NAME`: Anything you want to experiment around with (e.g., `test/rear-cam-vision/Nick`) </br>
+`other/other-name/NAME`: Anything that does not fit in any of the above categorizations (unlikely you'll use this but still helpful to have) 
 
 ## Commit Conventions
 
@@ -46,7 +47,13 @@ Commit messages should be concise and informative. A typical message style might
 <footers>
 ```
 
-`<type>`: describes the nature of the commit - use `feat` for a new feature, `fix` for bug fixes, `test` for code tests, `style` for grammatical corrections, `refactor` for changing code style to be more readable (not a functional change) </br> 
+`<type>`: describes the nature of the commit
+   - `feat` for a new feature
+   - `fix` for bug fixes
+   - `test` for code tests
+   - `style` for grammatical corrections
+   - `refactor` for changing code style to be more readable (not a functional change)
+   - `other` for anything not encompassed in the above categories (again fairly rare but useful to have this option) </br> 
 `<scope>`: optional description of the part of the codebase (e.g., feat(cam_vision)) </br>
 `<subject>`: concise summary of the commit - shouldn't surpass 50 characters, and should omit longer descriptions that belong in the body. </br>
 `<body>`: optional detailed description of the commit - should probably not exceed 72 lines, and would only save this if you are making a large change to how the codebase works </br> 
@@ -74,7 +81,7 @@ git commit \
 
 ### Personal Branch Commit Frequency 
 
-Since nobody else is touching this branch but you, you can frankly commmit whenever you want. Some general rules of thumb are: 
+Since nobody else is touching this branch but you, you can frankly commit whenever you want. Some general rules of thumb are: 
 
 1. If you are leaving your work for an extended period of time (e.g., longer than a bathroom break), commit your code.
 2. If you are stumped and find yourself needing to do more research or take some time to brainstorm, commit your code.
