@@ -53,7 +53,8 @@ Commit messages should be concise and informative. A typical message style might
    - `test` for code tests
    - `style` for grammatical corrections
    - `refactor` for changing code style to be more readable (not a functional change)
-   - `other` for anything not encompassed in the above categories (again fairly rare but useful to have this option) </br> 
+   - `other` for anything not encompassed in the above categories (again fairly rare but useful to have this option)
+
 `<scope>`: optional description of the part of the codebase (e.g., feat(cam_vision)) </br>
 `<subject>`: concise summary of the commit - shouldn't surpass 50 characters, and should omit longer descriptions that belong in the body. </br>
 `<body>`: optional detailed description of the commit - should probably not exceed 72 lines, and would only save this if you are making a large change to how the codebase works </br> 
